@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; script-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow">
+<title>Page not found · Vishnu Ram</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/404.css">
+</head>
+<body>
+<header class="site-head gutter">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="VRM, home"><span class="chev">&gt;</span>vrm<span class="cursor" aria-hidden="true"></span></a>
+    <nav class="nav" aria-label="Sections">
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch colour theme">theme: auto</button>
+      <a href="/" class="btn-sm">home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="hero gutter nf">
+  <div class="wrap nf-wrap">
+    <p class="path">~/404</p>
+    <h1>This page <span class="grad">isn't running.</span></h1>
+    <div class="term" role="img" aria-label="Terminal: the requested page was not found">
+      <div class="term-bar"><i></i><i></i><i></i><span>vrm@platform: ~</span></div>
+      <div class="term-body">
+<pre><span class="t-acc">$</span> vrm get page <span id="nf-path">/this-page</span>
+<span class="t-err">Error from server (NotFound): page not found</span>
+<span class="t-acc">$</span> vrm rollout undo <span class="t-dim"># back to a working page</span>
+<span class="t-ok">rolled back to /</span>
+<span class="t-acc">$</span> <span class="cursor term-cursor" aria-hidden="true"></span></pre>
+      </div>
+    </div>
+    <div class="cta">
+      <a class="btn btn-primary" href="/">Back to home <span aria-hidden="true">→</span></a>
+      <a class="btn btn-ghost" href="/#work">See the work</a>
+    </div>
+  </div>
+</main>
+
+<script src="/404.js" defer></script>
+</body>
+</html>

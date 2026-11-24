@@ -10,13 +10,15 @@ A static site on GitHub Pages. No backend, no trackers, no third-party requests.
 | `script.js` | Theme switch and email copy button; also assembles the email address so it never appears whole in the source |
 | `fonts/` | Self-hosted JetBrains Mono and IBM Plex Sans (SIL Open Font License, licence files included) |
 | `favicon.svg` | Browser tab icon (`>v`) |
+| `og-image.png` | 1200×630 preview image shown when the link is shared (LinkedIn, WhatsApp, Slack) |
+| `404.html`, `404.css`, `404.js` | "Page not found" page in the same style; GitHub Pages serves it for any missing address |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
 ## Publish
-1. Create a public repository named `<username>.github.io`.
+1. Create a public repository named `vishnu-ram-25.github.io`.
 2. Upload everything in this folder, keeping the `fonts/` folder.
 3. Settings → Pages → Source: **Deploy from a branch**, branch **main**, folder **/ (root)** → Save.
-4. Live at `https://<username>.github.io` within a few minutes.
+4. Live at `https://vishnu-ram-25.github.io` within a few minutes.
 
 ## Search engines
 `index.html` has `<meta name="robots" content="noindex, nofollow">`, so search engines don't list the site.
